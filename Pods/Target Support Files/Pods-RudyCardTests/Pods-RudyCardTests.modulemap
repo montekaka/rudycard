@@ -1,0 +1,6 @@
+framework module Pods_RudyCardTests {
+  umbrella header "Pods-RudyCardTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

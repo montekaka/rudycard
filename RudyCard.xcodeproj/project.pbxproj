@@ -1,0 +1,1416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FA1F9BBD61628E76ED6846A /* Pods_RudyCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1B311DE20371C3510BA22E /* Pods_RudyCardTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BF0144BB1C84205122C06DA7 /* Pods_RudyCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531A91B1DF19F451311B8524 /* Pods_RudyCard.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E54CEA821B53060300428E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CEA811B53060300428E64 /* AppDelegate.swift */; };
+		E54CEA841B53060300428E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CEA831B53060300428E64 /* ViewController.swift */; };
+		E54CEA871B53060300428E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54CEA851B53060300428E64 /* Main.storyboard */; };
+		E54CEA891B53060300428E64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54CEA881B53060300428E64 /* Images.xcassets */; };
+		E54CEA8C1B53060300428E64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E54CEA8A1B53060300428E64 /* LaunchScreen.xib */; };
+		E54CEA981B53060300428E64 /* RudyCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CEA971B53060300428E64 /* RudyCardTests.swift */; };
+		E54CEAA61B5316A500428E64 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CEAA51B5316A500428E64 /* ContentViewController.swift */; };
+		E54CEAA81B532F3E00428E64 /* rudy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAA71B532F3E00428E64 /* rudy.pdf */; };
+		E54CEB8E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-001.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEABE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-001.png */; };
+		E54CEB8F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-002.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEABF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-002.png */; };
+		E54CEB901B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-003.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAC01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-003.png */; };
+		E54CEB911B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-004.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAC11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-004.png */; };
+		E54CEB921B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-005.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAC21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-005.png */; };
+		E54CEB931B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-006.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAC31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-006.png */; };
+		E54CEB941B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-007.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAC41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-007.png */; };
+		E54CEB951B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-008.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAC51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-008.png */; };
+		E54CEB961B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-009.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAC61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-009.png */; };
+		E54CEB971B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-010.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAC71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-010.png */; };
+		E54CEB981B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-011.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAC81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-011.png */; };
+		E54CEB991B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-012.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAC91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-012.png */; };
+		E54CEB9A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-013.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEACA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-013.png */; };
+		E54CEB9B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-014.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEACB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-014.png */; };
+		E54CEB9C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-015.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEACC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-015.png */; };
+		E54CEB9D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-016.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEACD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-016.png */; };
+		E54CEB9E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-017.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEACE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-017.png */; };
+		E54CEB9F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-018.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEACF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-018.png */; };
+		E54CEBA01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-019.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAD01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-019.png */; };
+		E54CEBA11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-020.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAD11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-020.png */; };
+		E54CEBA21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-021.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAD21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-021.png */; };
+		E54CEBA31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-022.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAD31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-022.png */; };
+		E54CEBA41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-023.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAD41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-023.png */; };
+		E54CEBA51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-024.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAD51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-024.png */; };
+		E54CEBA61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-025.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAD61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-025.png */; };
+		E54CEBA71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-026.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAD71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-026.png */; };
+		E54CEBA81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-027.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAD81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-027.png */; };
+		E54CEBA91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-028.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAD91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-028.png */; };
+		E54CEBAA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-029.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEADA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-029.png */; };
+		E54CEBAB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-030.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEADB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-030.png */; };
+		E54CEBAC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-031.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEADC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-031.png */; };
+		E54CEBAD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-032.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEADD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-032.png */; };
+		E54CEBAE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-033.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEADE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-033.png */; };
+		E54CEBAF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-034.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEADF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-034.png */; };
+		E54CEBB01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-035.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAE01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-035.png */; };
+		E54CEBB11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-036.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAE11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-036.png */; };
+		E54CEBB21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-037.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAE21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-037.png */; };
+		E54CEBB31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-038.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAE31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-038.png */; };
+		E54CEBB41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-039.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAE41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-039.png */; };
+		E54CEBB51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-040.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAE51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-040.png */; };
+		E54CEBB61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-041.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAE61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-041.png */; };
+		E54CEBB71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-042.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAE71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-042.png */; };
+		E54CEBB81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-043.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAE81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-043.png */; };
+		E54CEBB91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-044.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAE91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-044.png */; };
+		E54CEBBA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-045.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAEA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-045.png */; };
+		E54CEBBB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-046.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAEB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-046.png */; };
+		E54CEBBC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-047.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAEC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-047.png */; };
+		E54CEBBD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-048.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAED1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-048.png */; };
+		E54CEBBE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-049.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAEE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-049.png */; };
+		E54CEBBF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-050.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAEF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-050.png */; };
+		E54CEBC01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-051.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAF01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-051.png */; };
+		E54CEBC11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-052.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAF11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-052.png */; };
+		E54CEBC21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-053.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAF21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-053.png */; };
+		E54CEBC31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-054.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAF31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-054.png */; };
+		E54CEBC41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-055.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAF41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-055.png */; };
+		E54CEBC51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-056.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAF51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-056.png */; };
+		E54CEBC61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-057.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAF61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-057.png */; };
+		E54CEBC71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-058.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAF71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-058.png */; };
+		E54CEBC81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-059.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAF81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-059.png */; };
+		E54CEBC91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-060.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAF91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-060.png */; };
+		E54CEBCA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-061.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAFA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-061.png */; };
+		E54CEBCB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-062.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAFB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-062.png */; };
+		E54CEBCC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-063.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAFC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-063.png */; };
+		E54CEBCD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-064.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAFD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-064.png */; };
+		E54CEBCE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-065.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAFE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-065.png */; };
+		E54CEBCF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-066.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEAFF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-066.png */; };
+		E54CEBD01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-067.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB001B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-067.png */; };
+		E54CEBD11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-068.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB011B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-068.png */; };
+		E54CEBD21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-069.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB021B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-069.png */; };
+		E54CEBD31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-070.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB031B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-070.png */; };
+		E54CEBD41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-071.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB041B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-071.png */; };
+		E54CEBD51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-072.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB051B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-072.png */; };
+		E54CEBD61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-073.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB061B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-073.png */; };
+		E54CEBD71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-074.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB071B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-074.png */; };
+		E54CEBD81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-075.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB081B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-075.png */; };
+		E54CEBD91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-076.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB091B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-076.png */; };
+		E54CEBDA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-077.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB0A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-077.png */; };
+		E54CEBDB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-078.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB0B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-078.png */; };
+		E54CEBDC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-079.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB0C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-079.png */; };
+		E54CEBDD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-080.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB0D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-080.png */; };
+		E54CEBDE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-081.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB0E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-081.png */; };
+		E54CEBDF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-082.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB0F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-082.png */; };
+		E54CEBE01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-083.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB101B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-083.png */; };
+		E54CEBE11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-084.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB111B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-084.png */; };
+		E54CEBE21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-085.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB121B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-085.png */; };
+		E54CEBE31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-086.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB131B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-086.png */; };
+		E54CEBE41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-087.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB141B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-087.png */; };
+		E54CEBE51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-088.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB151B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-088.png */; };
+		E54CEBE61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-089.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB161B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-089.png */; };
+		E54CEBE71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-090.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB171B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-090.png */; };
+		E54CEBE81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-091.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB181B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-091.png */; };
+		E54CEBE91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-092.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB191B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-092.png */; };
+		E54CEBEA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-093.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB1A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-093.png */; };
+		E54CEBEB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-094.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB1B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-094.png */; };
+		E54CEBEC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-095.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB1C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-095.png */; };
+		E54CEBED1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-096.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB1D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-096.png */; };
+		E54CEBEE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-097.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB1E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-097.png */; };
+		E54CEBEF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-098.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB1F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-098.png */; };
+		E54CEBF01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-099.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB201B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-099.png */; };
+		E54CEBF11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-100.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB211B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-100.png */; };
+		E54CEBF21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-101.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB221B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-101.png */; };
+		E54CEBF31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-102.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB231B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-102.png */; };
+		E54CEBF41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-103.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB241B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-103.png */; };
+		E54CEBF51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-104.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB251B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-104.png */; };
+		E54CEBF61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-105.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB261B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-105.png */; };
+		E54CEBF71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-106.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB271B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-106.png */; };
+		E54CEBF81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-107.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB281B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-107.png */; };
+		E54CEBF91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-108.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB291B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-108.png */; };
+		E54CEBFA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-109.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB2A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-109.png */; };
+		E54CEBFB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-110.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB2B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-110.png */; };
+		E54CEBFC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-111.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB2C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-111.png */; };
+		E54CEBFD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-112.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB2D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-112.png */; };
+		E54CEBFE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-113.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB2E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-113.png */; };
+		E54CEBFF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-114.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB2F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-114.png */; };
+		E54CEC001B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-115.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB301B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-115.png */; };
+		E54CEC011B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-116.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB311B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-116.png */; };
+		E54CEC021B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-117.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB321B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-117.png */; };
+		E54CEC031B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-118.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB331B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-118.png */; };
+		E54CEC041B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-119.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB341B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-119.png */; };
+		E54CEC051B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-120.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB351B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-120.png */; };
+		E54CEC061B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-121.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB361B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-121.png */; };
+		E54CEC071B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-122.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB371B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-122.png */; };
+		E54CEC081B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-123.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB381B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-123.png */; };
+		E54CEC091B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-124.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB391B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-124.png */; };
+		E54CEC0A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-125.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB3A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-125.png */; };
+		E54CEC0B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-126.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB3B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-126.png */; };
+		E54CEC0C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-127.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB3C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-127.png */; };
+		E54CEC0D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-128.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB3D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-128.png */; };
+		E54CEC0E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-129.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB3E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-129.png */; };
+		E54CEC0F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-130.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB3F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-130.png */; };
+		E54CEC101B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-131.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB401B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-131.png */; };
+		E54CEC111B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-132.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB411B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-132.png */; };
+		E54CEC121B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-133.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB421B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-133.png */; };
+		E54CEC131B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-134.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB431B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-134.png */; };
+		E54CEC141B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-135.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB441B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-135.png */; };
+		E54CEC151B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-136.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB451B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-136.png */; };
+		E54CEC161B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-137.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB461B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-137.png */; };
+		E54CEC171B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-138.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB471B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-138.png */; };
+		E54CEC181B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-139.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB481B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-139.png */; };
+		E54CEC191B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-140.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB491B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-140.png */; };
+		E54CEC1A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-141.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB4A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-141.png */; };
+		E54CEC1B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-142.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB4B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-142.png */; };
+		E54CEC1C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-143.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB4C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-143.png */; };
+		E54CEC1D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-144.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB4D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-144.png */; };
+		E54CEC1E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-145.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB4E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-145.png */; };
+		E54CEC1F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-146.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB4F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-146.png */; };
+		E54CEC201B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-147.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB501B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-147.png */; };
+		E54CEC211B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-148.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB511B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-148.png */; };
+		E54CEC221B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-149.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB521B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-149.png */; };
+		E54CEC231B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-150.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB531B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-150.png */; };
+		E54CEC241B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-151.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB541B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-151.png */; };
+		E54CEC251B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-152.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB551B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-152.png */; };
+		E54CEC261B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-153.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB561B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-153.png */; };
+		E54CEC271B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-154.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB571B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-154.png */; };
+		E54CEC281B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-155.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB581B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-155.png */; };
+		E54CEC291B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-156.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB591B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-156.png */; };
+		E54CEC2A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-157.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB5A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-157.png */; };
+		E54CEC2B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-158.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB5B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-158.png */; };
+		E54CEC2C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-159.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB5C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-159.png */; };
+		E54CEC2D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-160.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB5D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-160.png */; };
+		E54CEC2E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-161.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB5E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-161.png */; };
+		E54CEC2F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-162.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB5F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-162.png */; };
+		E54CEC301B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-163.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB601B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-163.png */; };
+		E54CEC311B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-164.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB611B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-164.png */; };
+		E54CEC321B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-165.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB621B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-165.png */; };
+		E54CEC331B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-166.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB631B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-166.png */; };
+		E54CEC341B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-167.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB641B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-167.png */; };
+		E54CEC351B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-168.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB651B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-168.png */; };
+		E54CEC361B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-169.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB661B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-169.png */; };
+		E54CEC371B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-170.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB671B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-170.png */; };
+		E54CEC381B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-171.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB681B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-171.png */; };
+		E54CEC391B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-172.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB691B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-172.png */; };
+		E54CEC3A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-173.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB6A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-173.png */; };
+		E54CEC3B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-174.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB6B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-174.png */; };
+		E54CEC3C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-175.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB6C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-175.png */; };
+		E54CEC3D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-176.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB6D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-176.png */; };
+		E54CEC3E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-177.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB6E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-177.png */; };
+		E54CEC3F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-178.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB6F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-178.png */; };
+		E54CEC401B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-179.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB701B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-179.png */; };
+		E54CEC411B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-180.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB711B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-180.png */; };
+		E54CEC421B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-181.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB721B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-181.png */; };
+		E54CEC431B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-182.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB731B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-182.png */; };
+		E54CEC441B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-183.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB741B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-183.png */; };
+		E54CEC451B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-184.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB751B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-184.png */; };
+		E54CEC461B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-185.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB761B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-185.png */; };
+		E54CEC471B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-186.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB771B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-186.png */; };
+		E54CEC481B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-187.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB781B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-187.png */; };
+		E54CEC491B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-188.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB791B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-188.png */; };
+		E54CEC4A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-189.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB7A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-189.png */; };
+		E54CEC4B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-190.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB7B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-190.png */; };
+		E54CEC4C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-191.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB7C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-191.png */; };
+		E54CEC4D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-192.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB7D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-192.png */; };
+		E54CEC4E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-193.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB7E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-193.png */; };
+		E54CEC4F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-194.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB7F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-194.png */; };
+		E54CEC501B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-195.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB801B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-195.png */; };
+		E54CEC511B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-196.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB811B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-196.png */; };
+		E54CEC521B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-197.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB821B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-197.png */; };
+		E54CEC531B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-198.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB831B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-198.png */; };
+		E54CEC541B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-199.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB841B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-199.png */; };
+		E54CEC551B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-200.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB851B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-200.png */; };
+		E54CEC561B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-201.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB861B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-201.png */; };
+		E54CEC571B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-202.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB871B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-202.png */; };
+		E54CEC581B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-203.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB881B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-203.png */; };
+		E54CEC591B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-204.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB891B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-204.png */; };
+		E54CEC5A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-205.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB8A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-205.png */; };
+		E54CEC5B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-206.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB8B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-206.png */; };
+		E54CEC5C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-207.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB8C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-207.png */; };
+		E54CEC5D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-208.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB8D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-208.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E54CEA921B53060300428E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E54CEA741B53060300428E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E54CEA7B1B53060300428E64;
+			remoteInfo = RudyCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1B311DE20371C3510BA22E /* Pods_RudyCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RudyCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		391DA8C9FDBF4CA7B3EE0C60 /* Pods-RudyCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudyCardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RudyCardTests/Pods-RudyCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		3AC58AB9B444A0FFDC7D2CFC /* Pods-RudyCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudyCardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RudyCardTests/Pods-RudyCardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		531A91B1DF19F451311B8524 /* Pods_RudyCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RudyCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8C537999B9D9F3246C9D72 /* Pods-RudyCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudyCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-RudyCard/Pods-RudyCard.release.xcconfig"; sourceTree = "<group>"; };
+		E54CEA7C1B53060300428E64 /* RudyCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RudyCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54CEA801B53060300428E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E54CEA811B53060300428E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E54CEA831B53060300428E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E54CEA861B53060300428E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E54CEA881B53060300428E64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E54CEA8B1B53060300428E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E54CEA911B53060300428E64 /* RudyCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RudyCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54CEA961B53060300428E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E54CEA971B53060300428E64 /* RudyCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RudyCardTests.swift; sourceTree = "<group>"; };
+		E54CEAA11B5306BB00428E64 /* RudyCard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RudyCard-Bridging-Header.h"; sourceTree = "<group>"; };
+		E54CEAA51B5316A500428E64 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		E54CEAA71B532F3E00428E64 /* rudy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = rudy.pdf; sourceTree = "<group>"; };
+		E54CEABE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-001.png"; sourceTree = "<group>"; };
+		E54CEABF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-002.png"; sourceTree = "<group>"; };
+		E54CEAC01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-003.png"; sourceTree = "<group>"; };
+		E54CEAC11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-004.png"; sourceTree = "<group>"; };
+		E54CEAC21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-005.png"; sourceTree = "<group>"; };
+		E54CEAC31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-006.png"; sourceTree = "<group>"; };
+		E54CEAC41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-007.png"; sourceTree = "<group>"; };
+		E54CEAC51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-008.png"; sourceTree = "<group>"; };
+		E54CEAC61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-009.png"; sourceTree = "<group>"; };
+		E54CEAC71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-010.png"; sourceTree = "<group>"; };
+		E54CEAC81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-011.png"; sourceTree = "<group>"; };
+		E54CEAC91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-012.png"; sourceTree = "<group>"; };
+		E54CEACA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-013.png"; sourceTree = "<group>"; };
+		E54CEACB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-014.png"; sourceTree = "<group>"; };
+		E54CEACC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-015.png"; sourceTree = "<group>"; };
+		E54CEACD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-016.png"; sourceTree = "<group>"; };
+		E54CEACE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-017.png"; sourceTree = "<group>"; };
+		E54CEACF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-018.png"; sourceTree = "<group>"; };
+		E54CEAD01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-019.png"; sourceTree = "<group>"; };
+		E54CEAD11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-020.png"; sourceTree = "<group>"; };
+		E54CEAD21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-021.png"; sourceTree = "<group>"; };
+		E54CEAD31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-022.png"; sourceTree = "<group>"; };
+		E54CEAD41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-023.png"; sourceTree = "<group>"; };
+		E54CEAD51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-024.png"; sourceTree = "<group>"; };
+		E54CEAD61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-025.png"; sourceTree = "<group>"; };
+		E54CEAD71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-026.png"; sourceTree = "<group>"; };
+		E54CEAD81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-027.png"; sourceTree = "<group>"; };
+		E54CEAD91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-028.png"; sourceTree = "<group>"; };
+		E54CEADA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-029.png"; sourceTree = "<group>"; };
+		E54CEADB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-030.png"; sourceTree = "<group>"; };
+		E54CEADC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-031.png"; sourceTree = "<group>"; };
+		E54CEADD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-032.png"; sourceTree = "<group>"; };
+		E54CEADE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-033.png"; sourceTree = "<group>"; };
+		E54CEADF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-034.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-034.png"; sourceTree = "<group>"; };
+		E54CEAE01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-035.png"; sourceTree = "<group>"; };
+		E54CEAE11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-036.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-036.png"; sourceTree = "<group>"; };
+		E54CEAE21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-037.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-037.png"; sourceTree = "<group>"; };
+		E54CEAE31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-038.png"; sourceTree = "<group>"; };
+		E54CEAE41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-039.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-039.png"; sourceTree = "<group>"; };
+		E54CEAE51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-040.png"; sourceTree = "<group>"; };
+		E54CEAE61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-041.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-041.png"; sourceTree = "<group>"; };
+		E54CEAE71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-042.png"; sourceTree = "<group>"; };
+		E54CEAE81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-043.png"; sourceTree = "<group>"; };
+		E54CEAE91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-044.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-044.png"; sourceTree = "<group>"; };
+		E54CEAEA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-045.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-045.png"; sourceTree = "<group>"; };
+		E54CEAEB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-046.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-046.png"; sourceTree = "<group>"; };
+		E54CEAEC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-047.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-047.png"; sourceTree = "<group>"; };
+		E54CEAED1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-048.png"; sourceTree = "<group>"; };
+		E54CEAEE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-049.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-049.png"; sourceTree = "<group>"; };
+		E54CEAEF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-050.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-050.png"; sourceTree = "<group>"; };
+		E54CEAF01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-051.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-051.png"; sourceTree = "<group>"; };
+		E54CEAF11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-052.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-052.png"; sourceTree = "<group>"; };
+		E54CEAF21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-053.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-053.png"; sourceTree = "<group>"; };
+		E54CEAF31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-054.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-054.png"; sourceTree = "<group>"; };
+		E54CEAF41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-055.png"; sourceTree = "<group>"; };
+		E54CEAF51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-056.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-056.png"; sourceTree = "<group>"; };
+		E54CEAF61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-057.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-057.png"; sourceTree = "<group>"; };
+		E54CEAF71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-058.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-058.png"; sourceTree = "<group>"; };
+		E54CEAF81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-059.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-059.png"; sourceTree = "<group>"; };
+		E54CEAF91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-060.png"; sourceTree = "<group>"; };
+		E54CEAFA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-061.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-061.png"; sourceTree = "<group>"; };
+		E54CEAFB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-062.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-062.png"; sourceTree = "<group>"; };
+		E54CEAFC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-063.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-063.png"; sourceTree = "<group>"; };
+		E54CEAFD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-064.png"; sourceTree = "<group>"; };
+		E54CEAFE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-065.png"; sourceTree = "<group>"; };
+		E54CEAFF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-066.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-066.png"; sourceTree = "<group>"; };
+		E54CEB001B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-067.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-067.png"; sourceTree = "<group>"; };
+		E54CEB011B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-068.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-068.png"; sourceTree = "<group>"; };
+		E54CEB021B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-069.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-069.png"; sourceTree = "<group>"; };
+		E54CEB031B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-070.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-070.png"; sourceTree = "<group>"; };
+		E54CEB041B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-071.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-071.png"; sourceTree = "<group>"; };
+		E54CEB051B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-072.png"; sourceTree = "<group>"; };
+		E54CEB061B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-073.png"; sourceTree = "<group>"; };
+		E54CEB071B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-074.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-074.png"; sourceTree = "<group>"; };
+		E54CEB081B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-075.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-075.png"; sourceTree = "<group>"; };
+		E54CEB091B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-076.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-076.png"; sourceTree = "<group>"; };
+		E54CEB0A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-077.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-077.png"; sourceTree = "<group>"; };
+		E54CEB0B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-078.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-078.png"; sourceTree = "<group>"; };
+		E54CEB0C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-079.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-079.png"; sourceTree = "<group>"; };
+		E54CEB0D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-080.png"; sourceTree = "<group>"; };
+		E54CEB0E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-081.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-081.png"; sourceTree = "<group>"; };
+		E54CEB0F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-082.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-082.png"; sourceTree = "<group>"; };
+		E54CEB101B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-083.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-083.png"; sourceTree = "<group>"; };
+		E54CEB111B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-084.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-084.png"; sourceTree = "<group>"; };
+		E54CEB121B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-085.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-085.png"; sourceTree = "<group>"; };
+		E54CEB131B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-086.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-086.png"; sourceTree = "<group>"; };
+		E54CEB141B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-087.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-087.png"; sourceTree = "<group>"; };
+		E54CEB151B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-088.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-088.png"; sourceTree = "<group>"; };
+		E54CEB161B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-089.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-089.png"; sourceTree = "<group>"; };
+		E54CEB171B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-090.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-090.png"; sourceTree = "<group>"; };
+		E54CEB181B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-091.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-091.png"; sourceTree = "<group>"; };
+		E54CEB191B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-092.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-092.png"; sourceTree = "<group>"; };
+		E54CEB1A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-093.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-093.png"; sourceTree = "<group>"; };
+		E54CEB1B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-094.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-094.png"; sourceTree = "<group>"; };
+		E54CEB1C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-095.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-095.png"; sourceTree = "<group>"; };
+		E54CEB1D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-096.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-096.png"; sourceTree = "<group>"; };
+		E54CEB1E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-097.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-097.png"; sourceTree = "<group>"; };
+		E54CEB1F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-098.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-098.png"; sourceTree = "<group>"; };
+		E54CEB201B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-099.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-099.png"; sourceTree = "<group>"; };
+		E54CEB211B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-100.png"; sourceTree = "<group>"; };
+		E54CEB221B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-101.png"; sourceTree = "<group>"; };
+		E54CEB231B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-102.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-102.png"; sourceTree = "<group>"; };
+		E54CEB241B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-103.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-103.png"; sourceTree = "<group>"; };
+		E54CEB251B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-104.png"; sourceTree = "<group>"; };
+		E54CEB261B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-105.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-105.png"; sourceTree = "<group>"; };
+		E54CEB271B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-106.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-106.png"; sourceTree = "<group>"; };
+		E54CEB281B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-107.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-107.png"; sourceTree = "<group>"; };
+		E54CEB291B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-108.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-108.png"; sourceTree = "<group>"; };
+		E54CEB2A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-109.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-109.png"; sourceTree = "<group>"; };
+		E54CEB2B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-110.png"; sourceTree = "<group>"; };
+		E54CEB2C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-111.png"; sourceTree = "<group>"; };
+		E54CEB2D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-112.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-112.png"; sourceTree = "<group>"; };
+		E54CEB2E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-113.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-113.png"; sourceTree = "<group>"; };
+		E54CEB2F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-114.png"; sourceTree = "<group>"; };
+		E54CEB301B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-115.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-115.png"; sourceTree = "<group>"; };
+		E54CEB311B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-116.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-116.png"; sourceTree = "<group>"; };
+		E54CEB321B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-117.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-117.png"; sourceTree = "<group>"; };
+		E54CEB331B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-118.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-118.png"; sourceTree = "<group>"; };
+		E54CEB341B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-119.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-119.png"; sourceTree = "<group>"; };
+		E54CEB351B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-120.png"; sourceTree = "<group>"; };
+		E54CEB361B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-121.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-121.png"; sourceTree = "<group>"; };
+		E54CEB371B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-122.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-122.png"; sourceTree = "<group>"; };
+		E54CEB381B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-123.png"; sourceTree = "<group>"; };
+		E54CEB391B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-124.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-124.png"; sourceTree = "<group>"; };
+		E54CEB3A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-125.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-125.png"; sourceTree = "<group>"; };
+		E54CEB3B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-126.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-126.png"; sourceTree = "<group>"; };
+		E54CEB3C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-127.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-127.png"; sourceTree = "<group>"; };
+		E54CEB3D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-128.png"; sourceTree = "<group>"; };
+		E54CEB3E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-129.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-129.png"; sourceTree = "<group>"; };
+		E54CEB3F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-130.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-130.png"; sourceTree = "<group>"; };
+		E54CEB401B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-131.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-131.png"; sourceTree = "<group>"; };
+		E54CEB411B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-132.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-132.png"; sourceTree = "<group>"; };
+		E54CEB421B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-133.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-133.png"; sourceTree = "<group>"; };
+		E54CEB431B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-134.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-134.png"; sourceTree = "<group>"; };
+		E54CEB441B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-135.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-135.png"; sourceTree = "<group>"; };
+		E54CEB451B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-136.png"; sourceTree = "<group>"; };
+		E54CEB461B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-137.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-137.png"; sourceTree = "<group>"; };
+		E54CEB471B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-138.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-138.png"; sourceTree = "<group>"; };
+		E54CEB481B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-139.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-139.png"; sourceTree = "<group>"; };
+		E54CEB491B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-140.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-140.png"; sourceTree = "<group>"; };
+		E54CEB4A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-141.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-141.png"; sourceTree = "<group>"; };
+		E54CEB4B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-142.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-142.png"; sourceTree = "<group>"; };
+		E54CEB4C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-143.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-143.png"; sourceTree = "<group>"; };
+		E54CEB4D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-144.png"; sourceTree = "<group>"; };
+		E54CEB4E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-145.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-145.png"; sourceTree = "<group>"; };
+		E54CEB4F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-146.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-146.png"; sourceTree = "<group>"; };
+		E54CEB501B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-147.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-147.png"; sourceTree = "<group>"; };
+		E54CEB511B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-148.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-148.png"; sourceTree = "<group>"; };
+		E54CEB521B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-149.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-149.png"; sourceTree = "<group>"; };
+		E54CEB531B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-150.png"; sourceTree = "<group>"; };
+		E54CEB541B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-151.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-151.png"; sourceTree = "<group>"; };
+		E54CEB551B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-152.png"; sourceTree = "<group>"; };
+		E54CEB561B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-153.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-153.png"; sourceTree = "<group>"; };
+		E54CEB571B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-154.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-154.png"; sourceTree = "<group>"; };
+		E54CEB581B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-155.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-155.png"; sourceTree = "<group>"; };
+		E54CEB591B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-156.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-156.png"; sourceTree = "<group>"; };
+		E54CEB5A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-157.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-157.png"; sourceTree = "<group>"; };
+		E54CEB5B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-158.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-158.png"; sourceTree = "<group>"; };
+		E54CEB5C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-159.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-159.png"; sourceTree = "<group>"; };
+		E54CEB5D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-160.png"; sourceTree = "<group>"; };
+		E54CEB5E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-161.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-161.png"; sourceTree = "<group>"; };
+		E54CEB5F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-162.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-162.png"; sourceTree = "<group>"; };
+		E54CEB601B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-163.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-163.png"; sourceTree = "<group>"; };
+		E54CEB611B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-164.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-164.png"; sourceTree = "<group>"; };
+		E54CEB621B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-165.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-165.png"; sourceTree = "<group>"; };
+		E54CEB631B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-166.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-166.png"; sourceTree = "<group>"; };
+		E54CEB641B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-167.png"; sourceTree = "<group>"; };
+		E54CEB651B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-168.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-168.png"; sourceTree = "<group>"; };
+		E54CEB661B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-169.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-169.png"; sourceTree = "<group>"; };
+		E54CEB671B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-170.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-170.png"; sourceTree = "<group>"; };
+		E54CEB681B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-171.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-171.png"; sourceTree = "<group>"; };
+		E54CEB691B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-172.png"; sourceTree = "<group>"; };
+		E54CEB6A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-173.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-173.png"; sourceTree = "<group>"; };
+		E54CEB6B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-174.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-174.png"; sourceTree = "<group>"; };
+		E54CEB6C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-175.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-175.png"; sourceTree = "<group>"; };
+		E54CEB6D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-176.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-176.png"; sourceTree = "<group>"; };
+		E54CEB6E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-177.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-177.png"; sourceTree = "<group>"; };
+		E54CEB6F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-178.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-178.png"; sourceTree = "<group>"; };
+		E54CEB701B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-179.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-179.png"; sourceTree = "<group>"; };
+		E54CEB711B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-180.png"; sourceTree = "<group>"; };
+		E54CEB721B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-181.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-181.png"; sourceTree = "<group>"; };
+		E54CEB731B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-182.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-182.png"; sourceTree = "<group>"; };
+		E54CEB741B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-183.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-183.png"; sourceTree = "<group>"; };
+		E54CEB751B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-184.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-184.png"; sourceTree = "<group>"; };
+		E54CEB761B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-185.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-185.png"; sourceTree = "<group>"; };
+		E54CEB771B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-186.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-186.png"; sourceTree = "<group>"; };
+		E54CEB781B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-187.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-187.png"; sourceTree = "<group>"; };
+		E54CEB791B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-188.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-188.png"; sourceTree = "<group>"; };
+		E54CEB7A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-189.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-189.png"; sourceTree = "<group>"; };
+		E54CEB7B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-190.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-190.png"; sourceTree = "<group>"; };
+		E54CEB7C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-191.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-191.png"; sourceTree = "<group>"; };
+		E54CEB7D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-192.png"; sourceTree = "<group>"; };
+		E54CEB7E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-193.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-193.png"; sourceTree = "<group>"; };
+		E54CEB7F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-194.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-194.png"; sourceTree = "<group>"; };
+		E54CEB801B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-195.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-195.png"; sourceTree = "<group>"; };
+		E54CEB811B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-196.png"; sourceTree = "<group>"; };
+		E54CEB821B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-197.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-197.png"; sourceTree = "<group>"; };
+		E54CEB831B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-198.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-198.png"; sourceTree = "<group>"; };
+		E54CEB841B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-199.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-199.png"; sourceTree = "<group>"; };
+		E54CEB851B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-200.png"; sourceTree = "<group>"; };
+		E54CEB861B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-201.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-201.png"; sourceTree = "<group>"; };
+		E54CEB871B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-202.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-202.png"; sourceTree = "<group>"; };
+		E54CEB881B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-203.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-203.png"; sourceTree = "<group>"; };
+		E54CEB891B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-204.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-204.png"; sourceTree = "<group>"; };
+		E54CEB8A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-205.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-205.png"; sourceTree = "<group>"; };
+		E54CEB8B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-206.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-206.png"; sourceTree = "<group>"; };
+		E54CEB8C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-207.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-207.png"; sourceTree = "<group>"; };
+		E54CEB8D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-208.png"; sourceTree = "<group>"; };
+		ED277AB06F8432918E1AC616 /* Pods-RudyCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudyCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RudyCard/Pods-RudyCard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E54CEA791B53060300428E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0144BB1C84205122C06DA7 /* Pods_RudyCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54CEA8E1B53060300428E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA1F9BBD61628E76ED6846A /* Pods_RudyCardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE65A659DFF08DDF0A58AFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED277AB06F8432918E1AC616 /* Pods-RudyCard.debug.xcconfig */,
+				DD8C537999B9D9F3246C9D72 /* Pods-RudyCard.release.xcconfig */,
+				3AC58AB9B444A0FFDC7D2CFC /* Pods-RudyCardTests.debug.xcconfig */,
+				391DA8C9FDBF4CA7B3EE0C60 /* Pods-RudyCardTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6BE8CD1E96517C6F4CFE943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				531A91B1DF19F451311B8524 /* Pods_RudyCard.framework */,
+				2B1B311DE20371C3510BA22E /* Pods_RudyCardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E54CEA731B53060300428E64 = {
+			isa = PBXGroup;
+			children = (
+				E54CEA7E1B53060300428E64 /* RudyCard */,
+				E54CEA941B53060300428E64 /* RudyCardTests */,
+				E54CEA7D1B53060300428E64 /* Products */,
+				0DE65A659DFF08DDF0A58AFD /* Pods */,
+				B6BE8CD1E96517C6F4CFE943 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E54CEA7D1B53060300428E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E54CEA7C1B53060300428E64 /* RudyCard.app */,
+				E54CEA911B53060300428E64 /* RudyCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E54CEA7E1B53060300428E64 /* RudyCard */ = {
+			isa = PBXGroup;
+			children = (
+				E54CEA811B53060300428E64 /* AppDelegate.swift */,
+				E54CEA831B53060300428E64 /* ViewController.swift */,
+				E54CEAA51B5316A500428E64 /* ContentViewController.swift */,
+				E54CEA851B53060300428E64 /* Main.storyboard */,
+				E54CEA881B53060300428E64 /* Images.xcassets */,
+				E54CEA8A1B53060300428E64 /* LaunchScreen.xib */,
+				E54CEA7F1B53060300428E64 /* Supporting Files */,
+				E54CEAA11B5306BB00428E64 /* RudyCard-Bridging-Header.h */,
+				E54CEAA71B532F3E00428E64 /* rudy.pdf */,
+				E54CEABD1B53373800428E64 /* studycards */,
+			);
+			path = RudyCard;
+			sourceTree = "<group>";
+		};
+		E54CEA7F1B53060300428E64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E54CEA801B53060300428E64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E54CEA941B53060300428E64 /* RudyCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E54CEA971B53060300428E64 /* RudyCardTests.swift */,
+				E54CEA951B53060300428E64 /* Supporting Files */,
+			);
+			path = RudyCardTests;
+			sourceTree = "<group>";
+		};
+		E54CEA951B53060300428E64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E54CEA961B53060300428E64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E54CEABD1B53373800428E64 /* studycards */ = {
+			isa = PBXGroup;
+			children = (
+				E54CEABE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-001.png */,
+				E54CEABF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-002.png */,
+				E54CEAC01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-003.png */,
+				E54CEAC11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-004.png */,
+				E54CEAC21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-005.png */,
+				E54CEAC31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-006.png */,
+				E54CEAC41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-007.png */,
+				E54CEAC51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-008.png */,
+				E54CEAC61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-009.png */,
+				E54CEAC71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-010.png */,
+				E54CEAC81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-011.png */,
+				E54CEAC91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-012.png */,
+				E54CEACA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-013.png */,
+				E54CEACB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-014.png */,
+				E54CEACC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-015.png */,
+				E54CEACD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-016.png */,
+				E54CEACE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-017.png */,
+				E54CEACF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-018.png */,
+				E54CEAD01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-019.png */,
+				E54CEAD11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-020.png */,
+				E54CEAD21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-021.png */,
+				E54CEAD31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-022.png */,
+				E54CEAD41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-023.png */,
+				E54CEAD51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-024.png */,
+				E54CEAD61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-025.png */,
+				E54CEAD71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-026.png */,
+				E54CEAD81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-027.png */,
+				E54CEAD91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-028.png */,
+				E54CEADA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-029.png */,
+				E54CEADB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-030.png */,
+				E54CEADC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-031.png */,
+				E54CEADD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-032.png */,
+				E54CEADE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-033.png */,
+				E54CEADF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-034.png */,
+				E54CEAE01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-035.png */,
+				E54CEAE11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-036.png */,
+				E54CEAE21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-037.png */,
+				E54CEAE31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-038.png */,
+				E54CEAE41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-039.png */,
+				E54CEAE51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-040.png */,
+				E54CEAE61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-041.png */,
+				E54CEAE71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-042.png */,
+				E54CEAE81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-043.png */,
+				E54CEAE91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-044.png */,
+				E54CEAEA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-045.png */,
+				E54CEAEB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-046.png */,
+				E54CEAEC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-047.png */,
+				E54CEAED1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-048.png */,
+				E54CEAEE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-049.png */,
+				E54CEAEF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-050.png */,
+				E54CEAF01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-051.png */,
+				E54CEAF11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-052.png */,
+				E54CEAF21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-053.png */,
+				E54CEAF31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-054.png */,
+				E54CEAF41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-055.png */,
+				E54CEAF51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-056.png */,
+				E54CEAF61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-057.png */,
+				E54CEAF71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-058.png */,
+				E54CEAF81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-059.png */,
+				E54CEAF91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-060.png */,
+				E54CEAFA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-061.png */,
+				E54CEAFB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-062.png */,
+				E54CEAFC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-063.png */,
+				E54CEAFD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-064.png */,
+				E54CEAFE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-065.png */,
+				E54CEAFF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-066.png */,
+				E54CEB001B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-067.png */,
+				E54CEB011B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-068.png */,
+				E54CEB021B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-069.png */,
+				E54CEB031B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-070.png */,
+				E54CEB041B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-071.png */,
+				E54CEB051B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-072.png */,
+				E54CEB061B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-073.png */,
+				E54CEB071B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-074.png */,
+				E54CEB081B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-075.png */,
+				E54CEB091B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-076.png */,
+				E54CEB0A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-077.png */,
+				E54CEB0B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-078.png */,
+				E54CEB0C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-079.png */,
+				E54CEB0D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-080.png */,
+				E54CEB0E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-081.png */,
+				E54CEB0F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-082.png */,
+				E54CEB101B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-083.png */,
+				E54CEB111B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-084.png */,
+				E54CEB121B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-085.png */,
+				E54CEB131B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-086.png */,
+				E54CEB141B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-087.png */,
+				E54CEB151B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-088.png */,
+				E54CEB161B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-089.png */,
+				E54CEB171B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-090.png */,
+				E54CEB181B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-091.png */,
+				E54CEB191B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-092.png */,
+				E54CEB1A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-093.png */,
+				E54CEB1B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-094.png */,
+				E54CEB1C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-095.png */,
+				E54CEB1D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-096.png */,
+				E54CEB1E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-097.png */,
+				E54CEB1F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-098.png */,
+				E54CEB201B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-099.png */,
+				E54CEB211B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-100.png */,
+				E54CEB221B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-101.png */,
+				E54CEB231B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-102.png */,
+				E54CEB241B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-103.png */,
+				E54CEB251B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-104.png */,
+				E54CEB261B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-105.png */,
+				E54CEB271B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-106.png */,
+				E54CEB281B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-107.png */,
+				E54CEB291B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-108.png */,
+				E54CEB2A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-109.png */,
+				E54CEB2B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-110.png */,
+				E54CEB2C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-111.png */,
+				E54CEB2D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-112.png */,
+				E54CEB2E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-113.png */,
+				E54CEB2F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-114.png */,
+				E54CEB301B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-115.png */,
+				E54CEB311B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-116.png */,
+				E54CEB321B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-117.png */,
+				E54CEB331B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-118.png */,
+				E54CEB341B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-119.png */,
+				E54CEB351B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-120.png */,
+				E54CEB361B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-121.png */,
+				E54CEB371B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-122.png */,
+				E54CEB381B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-123.png */,
+				E54CEB391B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-124.png */,
+				E54CEB3A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-125.png */,
+				E54CEB3B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-126.png */,
+				E54CEB3C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-127.png */,
+				E54CEB3D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-128.png */,
+				E54CEB3E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-129.png */,
+				E54CEB3F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-130.png */,
+				E54CEB401B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-131.png */,
+				E54CEB411B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-132.png */,
+				E54CEB421B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-133.png */,
+				E54CEB431B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-134.png */,
+				E54CEB441B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-135.png */,
+				E54CEB451B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-136.png */,
+				E54CEB461B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-137.png */,
+				E54CEB471B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-138.png */,
+				E54CEB481B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-139.png */,
+				E54CEB491B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-140.png */,
+				E54CEB4A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-141.png */,
+				E54CEB4B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-142.png */,
+				E54CEB4C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-143.png */,
+				E54CEB4D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-144.png */,
+				E54CEB4E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-145.png */,
+				E54CEB4F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-146.png */,
+				E54CEB501B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-147.png */,
+				E54CEB511B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-148.png */,
+				E54CEB521B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-149.png */,
+				E54CEB531B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-150.png */,
+				E54CEB541B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-151.png */,
+				E54CEB551B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-152.png */,
+				E54CEB561B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-153.png */,
+				E54CEB571B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-154.png */,
+				E54CEB581B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-155.png */,
+				E54CEB591B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-156.png */,
+				E54CEB5A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-157.png */,
+				E54CEB5B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-158.png */,
+				E54CEB5C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-159.png */,
+				E54CEB5D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-160.png */,
+				E54CEB5E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-161.png */,
+				E54CEB5F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-162.png */,
+				E54CEB601B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-163.png */,
+				E54CEB611B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-164.png */,
+				E54CEB621B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-165.png */,
+				E54CEB631B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-166.png */,
+				E54CEB641B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-167.png */,
+				E54CEB651B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-168.png */,
+				E54CEB661B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-169.png */,
+				E54CEB671B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-170.png */,
+				E54CEB681B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-171.png */,
+				E54CEB691B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-172.png */,
+				E54CEB6A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-173.png */,
+				E54CEB6B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-174.png */,
+				E54CEB6C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-175.png */,
+				E54CEB6D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-176.png */,
+				E54CEB6E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-177.png */,
+				E54CEB6F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-178.png */,
+				E54CEB701B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-179.png */,
+				E54CEB711B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-180.png */,
+				E54CEB721B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-181.png */,
+				E54CEB731B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-182.png */,
+				E54CEB741B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-183.png */,
+				E54CEB751B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-184.png */,
+				E54CEB761B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-185.png */,
+				E54CEB771B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-186.png */,
+				E54CEB781B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-187.png */,
+				E54CEB791B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-188.png */,
+				E54CEB7A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-189.png */,
+				E54CEB7B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-190.png */,
+				E54CEB7C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-191.png */,
+				E54CEB7D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-192.png */,
+				E54CEB7E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-193.png */,
+				E54CEB7F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-194.png */,
+				E54CEB801B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-195.png */,
+				E54CEB811B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-196.png */,
+				E54CEB821B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-197.png */,
+				E54CEB831B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-198.png */,
+				E54CEB841B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-199.png */,
+				E54CEB851B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-200.png */,
+				E54CEB861B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-201.png */,
+				E54CEB871B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-202.png */,
+				E54CEB881B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-203.png */,
+				E54CEB891B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-204.png */,
+				E54CEB8A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-205.png */,
+				E54CEB8B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-206.png */,
+				E54CEB8C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-207.png */,
+				E54CEB8D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-208.png */,
+			);
+			path = studycards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E54CEA7B1B53060300428E64 /* RudyCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E54CEA9B1B53060300428E64 /* Build configuration list for PBXNativeTarget "RudyCard" */;
+			buildPhases = (
+				BF38BD231489C2A8EFF7A0F4 /* Check Pods Manifest.lock */,
+				E54CEA781B53060300428E64 /* Sources */,
+				E54CEA791B53060300428E64 /* Frameworks */,
+				E54CEA7A1B53060300428E64 /* Resources */,
+				5B49F70298B8D629747CC961 /* Embed Pods Frameworks */,
+				A3F3F284FBAAB463DAF0CC1D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RudyCard;
+			productName = RudyCard;
+			productReference = E54CEA7C1B53060300428E64 /* RudyCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E54CEA901B53060300428E64 /* RudyCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E54CEA9E1B53060300428E64 /* Build configuration list for PBXNativeTarget "RudyCardTests" */;
+			buildPhases = (
+				268CFB6E3C54C473934E6D88 /* Check Pods Manifest.lock */,
+				E54CEA8D1B53060300428E64 /* Sources */,
+				E54CEA8E1B53060300428E64 /* Frameworks */,
+				E54CEA8F1B53060300428E64 /* Resources */,
+				FFAB47C0719577D2C7B1C353 /* Embed Pods Frameworks */,
+				50660BB1A7F839B88D1CCF1E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E54CEA931B53060300428E64 /* PBXTargetDependency */,
+			);
+			name = RudyCardTests;
+			productName = RudyCardTests;
+			productReference = E54CEA911B53060300428E64 /* RudyCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E54CEA741B53060300428E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.bruinSquare;
+				TargetAttributes = {
+					E54CEA7B1B53060300428E64 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E54CEA901B53060300428E64 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E54CEA7B1B53060300428E64;
+					};
+				};
+			};
+			buildConfigurationList = E54CEA771B53060300428E64 /* Build configuration list for PBXProject "RudyCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E54CEA731B53060300428E64;
+			productRefGroup = E54CEA7D1B53060300428E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E54CEA7B1B53060300428E64 /* RudyCard */,
+				E54CEA901B53060300428E64 /* RudyCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E54CEA7A1B53060300428E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54CEBAB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-030.png in Resources */,
+				E54CEBB51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-040.png in Resources */,
+				E54CEBA61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-025.png in Resources */,
+				E54CEBD11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-068.png in Resources */,
+				E54CEB961B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-009.png in Resources */,
+				E54CEC1A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-141.png in Resources */,
+				E54CEBFD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-112.png in Resources */,
+				E54CEBD61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-073.png in Resources */,
+				E54CEBBF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-050.png in Resources */,
+				E54CEBF01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-099.png in Resources */,
+				E54CEBB81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-043.png in Resources */,
+				E54CEAA81B532F3E00428E64 /* rudy.pdf in Resources */,
+				E54CEC501B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-195.png in Resources */,
+				E54CEC2A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-157.png in Resources */,
+				E54CEB9F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-018.png in Resources */,
+				E54CEBC41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-055.png in Resources */,
+				E54CEC011B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-116.png in Resources */,
+				E54CEC581B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-203.png in Resources */,
+				E54CEC311B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-164.png in Resources */,
+				E54CEBF61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-105.png in Resources */,
+				E54CEB951B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-008.png in Resources */,
+				E54CEBF91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-108.png in Resources */,
+				E54CEC181B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-139.png in Resources */,
+				E54CEBA71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-026.png in Resources */,
+				E54CEC411B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-180.png in Resources */,
+				E54CEBC91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-060.png in Resources */,
+				E54CEB9E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-017.png in Resources */,
+				E54CEB981B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-011.png in Resources */,
+				E54CEC3A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-173.png in Resources */,
+				E54CEC241B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-151.png in Resources */,
+				E54CEC031B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-118.png in Resources */,
+				E54CEC271B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-154.png in Resources */,
+				E54CEC471B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-186.png in Resources */,
+				E54CEB931B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-006.png in Resources */,
+				E54CEC151B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-136.png in Resources */,
+				E54CEC331B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-166.png in Resources */,
+				E54CEC211B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-148.png in Resources */,
+				E54CEBA51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-024.png in Resources */,
+				E54CEC191B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-140.png in Resources */,
+				E54CEC2F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-162.png in Resources */,
+				E54CEC0E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-129.png in Resources */,
+				E54CEBD91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-076.png in Resources */,
+				E54CEC301B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-163.png in Resources */,
+				E54CEC591B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-204.png in Resources */,
+				E54CEC161B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-137.png in Resources */,
+				E54CEBB91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-044.png in Resources */,
+				E54CEC171B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-138.png in Resources */,
+				E54CEBD41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-071.png in Resources */,
+				E54CEBF31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-102.png in Resources */,
+				E54CEBD31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-070.png in Resources */,
+				E54CEBA31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-022.png in Resources */,
+				E54CEC401B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-179.png in Resources */,
+				E54CEC0B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-126.png in Resources */,
+				E54CEC521B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-197.png in Resources */,
+				E54CEC061B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-121.png in Resources */,
+				E54CEBBB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-046.png in Resources */,
+				E54CEBAA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-029.png in Resources */,
+				E54CEBE11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-084.png in Resources */,
+				E54CEBBD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-048.png in Resources */,
+				E54CEC461B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-185.png in Resources */,
+				E54CEC0D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-128.png in Resources */,
+				E54CEC551B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-200.png in Resources */,
+				E54CEC081B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-123.png in Resources */,
+				E54CEBAC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-031.png in Resources */,
+				E54CEBFA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-109.png in Resources */,
+				E54CEBFC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-111.png in Resources */,
+				E54CEC0A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-125.png in Resources */,
+				E54CEC201B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-147.png in Resources */,
+				E54CEBF81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-107.png in Resources */,
+				E54CEC251B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-152.png in Resources */,
+				E54CEB911B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-004.png in Resources */,
+				E54CEC3E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-177.png in Resources */,
+				E54CEB8F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-002.png in Resources */,
+				E54CEC451B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-184.png in Resources */,
+				E54CEB9C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-015.png in Resources */,
+				E54CEC391B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-172.png in Resources */,
+				E54CEC2B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-158.png in Resources */,
+				E54CEBA41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-023.png in Resources */,
+				E54CEBF51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-104.png in Resources */,
+				E54CEC001B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-115.png in Resources */,
+				E54CEBC31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-054.png in Resources */,
+				E54CEBA91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-028.png in Resources */,
+				E54CEBA21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-021.png in Resources */,
+				E54CEBE31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-086.png in Resources */,
+				E54CEBEB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-094.png in Resources */,
+				E54CEC2D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-160.png in Resources */,
+				E54CEBC51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-056.png in Resources */,
+				E54CEC571B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-202.png in Resources */,
+				E54CEBE41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-087.png in Resources */,
+				E54CEC141B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-135.png in Resources */,
+				E54CEC131B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-134.png in Resources */,
+				E54CEBE61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-089.png in Resources */,
+				E54CEC051B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-120.png in Resources */,
+				E54CEBDC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-079.png in Resources */,
+				E54CEBB71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-042.png in Resources */,
+				E54CEBFF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-114.png in Resources */,
+				E54CEBB31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-038.png in Resources */,
+				E54CEBBE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-049.png in Resources */,
+				E54CEC511B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-196.png in Resources */,
+				E54CEC541B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-199.png in Resources */,
+				E54CEBB21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-037.png in Resources */,
+				E54CEC341B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-167.png in Resources */,
+				E54CEBF41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-103.png in Resources */,
+				E54CEBF11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-100.png in Resources */,
+				E54CEBDE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-081.png in Resources */,
+				E54CEBB01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-035.png in Resources */,
+				E54CEC361B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-169.png in Resources */,
+				E54CEBC61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-057.png in Resources */,
+				E54CEBED1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-096.png in Resources */,
+				E54CEC071B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-122.png in Resources */,
+				E54CEC121B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-133.png in Resources */,
+				E54CEBBC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-047.png in Resources */,
+				E54CEC0F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-130.png in Resources */,
+				E54CEC431B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-182.png in Resources */,
+				E54CEC1C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-143.png in Resources */,
+				E54CEBD01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-067.png in Resources */,
+				E54CEBEC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-095.png in Resources */,
+				E54CEC3C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-175.png in Resources */,
+				E54CEB9D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-016.png in Resources */,
+				E54CEC5C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-207.png in Resources */,
+				E54CEBB61B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-041.png in Resources */,
+				E54CEBA01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-019.png in Resources */,
+				E54CEBCA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-061.png in Resources */,
+				E54CEBE81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-091.png in Resources */,
+				E54CEC091B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-124.png in Resources */,
+				E54CEB941B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-007.png in Resources */,
+				E54CEBBA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-045.png in Resources */,
+				E54CEBA81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-027.png in Resources */,
+				E54CEBDB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-078.png in Resources */,
+				E54CEBE01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-083.png in Resources */,
+				E54CEB991B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-012.png in Resources */,
+				E54CEC1D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-144.png in Resources */,
+				E54CEC481B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-187.png in Resources */,
+				E54CEC381B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-171.png in Resources */,
+				E54CEBCE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-065.png in Resources */,
+				E54CEBAE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-033.png in Resources */,
+				E54CEBB41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-039.png in Resources */,
+				E54CEB8E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-001.png in Resources */,
+				E54CEBAD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-032.png in Resources */,
+				E54CEBF21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-101.png in Resources */,
+				E54CEBAF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-034.png in Resources */,
+				E54CEBFB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-110.png in Resources */,
+				E54CEC2E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-161.png in Resources */,
+				E54CEBC11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-052.png in Resources */,
+				E54CEC291B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-156.png in Resources */,
+				E54CEBCD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-064.png in Resources */,
+				E54CEC4D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-192.png in Resources */,
+				E54CEB921B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-005.png in Resources */,
+				E54CEC4C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-191.png in Resources */,
+				E54CEC1F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-146.png in Resources */,
+				E54CEC4F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-194.png in Resources */,
+				E54CEBFE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-113.png in Resources */,
+				E54CEBE71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-090.png in Resources */,
+				E54CEBCC1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-063.png in Resources */,
+				E54CEC441B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-183.png in Resources */,
+				E54CEC5D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-208.png in Resources */,
+				E54CEBCF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-066.png in Resources */,
+				E54CEC231B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-150.png in Resources */,
+				E54CEC1B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-142.png in Resources */,
+				E54CEC351B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-168.png in Resources */,
+				E54CEBE51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-088.png in Resources */,
+				E54CEB9A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-013.png in Resources */,
+				E54CEC3F1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-178.png in Resources */,
+				E54CEC491B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-188.png in Resources */,
+				E54CEBDD1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-080.png in Resources */,
+				E54CEBDA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-077.png in Resources */,
+				E54CEBEE1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-097.png in Resources */,
+				E54CEC101B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-131.png in Resources */,
+				E54CEB9B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-014.png in Resources */,
+				E54CEBC71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-058.png in Resources */,
+				E54CEC0C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-127.png in Resources */,
+				E54CEC041B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-119.png in Resources */,
+				E54CEC5A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-205.png in Resources */,
+				E54CEC3B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-174.png in Resources */,
+				E54CEA871B53060300428E64 /* Main.storyboard in Resources */,
+				E54CEC371B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-170.png in Resources */,
+				E54CEBF71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-106.png in Resources */,
+				E54CEC111B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-132.png in Resources */,
+				E54CEC4A1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-189.png in Resources */,
+				E54CEBDF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-082.png in Resources */,
+				E54CEBE91B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-092.png in Resources */,
+				E54CEBC21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-053.png in Resources */,
+				E54CEC021B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-117.png in Resources */,
+				E54CEBEF1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-098.png in Resources */,
+				E54CEBD71B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-074.png in Resources */,
+				E54CEBCB1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-062.png in Resources */,
+				E54CEBC01B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-051.png in Resources */,
+				E54CEC5B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-206.png in Resources */,
+				E54CEC421B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-181.png in Resources */,
+				E54CEB971B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-010.png in Resources */,
+				E54CEBD81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-075.png in Resources */,
+				E54CEC3D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-176.png in Resources */,
+				E54CEA8C1B53060300428E64 /* LaunchScreen.xib in Resources */,
+				E54CEC321B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-165.png in Resources */,
+				E54CEC1E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-145.png in Resources */,
+				E54CEC221B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-149.png in Resources */,
+				E54CEC531B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-198.png in Resources */,
+				E54CEBC81B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-059.png in Resources */,
+				E54CEC281B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-155.png in Resources */,
+				E54CEC2C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-159.png in Resources */,
+				E54CEBD51B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-072.png in Resources */,
+				E54CEA891B53060300428E64 /* Images.xcassets in Resources */,
+				E54CEBE21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-085.png in Resources */,
+				E54CEC4E1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-193.png in Resources */,
+				E54CEB901B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-003.png in Resources */,
+				E54CEC261B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-153.png in Resources */,
+				E54CEC4B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-190.png in Resources */,
+				E54CEC561B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-201.png in Resources */,
+				E54CEBEA1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-093.png in Resources */,
+				E54CEBB11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-036.png in Resources */,
+				E54CEBD21B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-069.png in Resources */,
+				E54CEBA11B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-020.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54CEA8F1B53060300428E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		268CFB6E3C54C473934E6D88 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50660BB1A7F839B88D1CCF1E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RudyCardTests/Pods-RudyCardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B49F70298B8D629747CC961 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RudyCard/Pods-RudyCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F3F284FBAAB463DAF0CC1D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RudyCard/Pods-RudyCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF38BD231489C2A8EFF7A0F4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFAB47C0719577D2C7B1C353 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RudyCardTests/Pods-RudyCardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E54CEA781B53060300428E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54CEA841B53060300428E64 /* ViewController.swift in Sources */,
+				E54CEAA61B5316A500428E64 /* ContentViewController.swift in Sources */,
+				E54CEA821B53060300428E64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54CEA8D1B53060300428E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54CEA981B53060300428E64 /* RudyCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E54CEA931B53060300428E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E54CEA7B1B53060300428E64 /* RudyCard */;
+			targetProxy = E54CEA921B53060300428E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E54CEA851B53060300428E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E54CEA861B53060300428E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E54CEA8A1B53060300428E64 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E54CEA8B1B53060300428E64 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E54CEA991B53060300428E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E54CEA9A1B53060300428E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E54CEA9C1B53060300428E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED277AB06F8432918E1AC616 /* Pods-RudyCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RudyCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RudyCard/RudyCard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E54CEA9D1B53060300428E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8C537999B9D9F3246C9D72 /* Pods-RudyCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RudyCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RudyCard/RudyCard-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		E54CEA9F1B53060300428E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC58AB9B444A0FFDC7D2CFC /* Pods-RudyCardTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RudyCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RudyCard.app/RudyCard";
+			};
+			name = Debug;
+		};
+		E54CEAA01B53060300428E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391DA8C9FDBF4CA7B3EE0C60 /* Pods-RudyCardTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RudyCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RudyCard.app/RudyCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E54CEA771B53060300428E64 /* Build configuration list for PBXProject "RudyCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54CEA991B53060300428E64 /* Debug */,
+				E54CEA9A1B53060300428E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E54CEA9B1B53060300428E64 /* Build configuration list for PBXNativeTarget "RudyCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54CEA9C1B53060300428E64 /* Debug */,
+				E54CEA9D1B53060300428E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E54CEA9E1B53060300428E64 /* Build configuration list for PBXNativeTarget "RudyCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54CEA9F1B53060300428E64 /* Debug */,
+				E54CEAA01B53060300428E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E54CEA741B53060300428E64 /* Project object */;
+}

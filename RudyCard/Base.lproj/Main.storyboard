@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="RudyCard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nak-Qw-7YX">
+                                <rect key="frame" x="275" y="540" width="50" height="30"/>
+                                <state key="normal" title="Restart">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="restartAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9Zb-Dk-FyT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nak-Qw-7YX" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="iqg-7X-ViL"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="nak-Qw-7YX" secondAttribute="bottom" constant="30" id="sww-HD-kLN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="CRx-C4-jEt">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="PHD-qU-YWf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oe9-eE-j9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1269" y="95"/>
+        </scene>
+        <!--Content View Controller-->
+        <scene sceneID="4eh-Vv-qXH">
+            <objects>
+                <viewController storyboardIdentifier="ContentViewController" id="ncj-Nq-SMa" customClass="ContentViewController" customModule="RudyCard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sfq-tq-h9p"/>
+                        <viewControllerLayoutGuide type="bottom" id="ojk-wz-5ig"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nMt-He-LWE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qN6-Uc-X3t">
+                                <rect key="frame" x="16" y="36" width="568" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Ypi-Q5-A0t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GFb-W3-Uj7">
+                                <rect key="frame" x="16" y="65" width="568" height="515"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GFb-W3-Uj7" firstAttribute="trailing" secondItem="qN6-Uc-X3t" secondAttribute="trailing" id="3AB-mg-6Va"/>
+                            <constraint firstItem="qN6-Uc-X3t" firstAttribute="leading" secondItem="GFb-W3-Uj7" secondAttribute="leading" id="7uY-pu-tSy"/>
+                            <constraint firstItem="qN6-Uc-X3t" firstAttribute="trailing" secondItem="nMt-He-LWE" secondAttribute="trailingMargin" id="G9B-HX-n9N"/>
+                            <constraint firstAttribute="bottom" secondItem="GFb-W3-Uj7" secondAttribute="bottom" constant="20" symbolic="YES" id="Gbs-kv-Cpf"/>
+                            <constraint firstItem="qN6-Uc-X3t" firstAttribute="leading" secondItem="nMt-He-LWE" secondAttribute="leadingMargin" id="f3j-5M-Zol"/>
+                            <constraint firstItem="GFb-W3-Uj7" firstAttribute="top" secondItem="qN6-Uc-X3t" secondAttribute="bottom" constant="8" symbolic="YES" id="hXT-8c-FbA"/>
+                            <constraint firstItem="qN6-Uc-X3t" firstAttribute="top" secondItem="sfq-tq-h9p" secondAttribute="bottom" constant="16" id="kCm-EV-FZA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="GFb-W3-Uj7" id="ymo-lc-h6J"/>
+                        <outlet property="titleLabel" destination="qN6-Uc-X3t" id="iY4-Gz-Jcu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cK7-hY-Jzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1269" y="878"/>
+        </scene>
+    </scenes>
+</document>
