@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>718C44A0-8E6D-46A3-B22D-F6E35BB4100C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RudyCard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9527432CE78EAAF86AE4B9ED522998116EB14184</key>
+		<string>github.com:montekaka/rudycard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RudyCard.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9527432CE78EAAF86AE4B9ED522998116EB14184</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:montekaka/rudycard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9527432CE78EAAF86AE4B9ED522998116EB14184</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9527432CE78EAAF86AE4B9ED522998116EB14184</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RudyCard</string>
+		</dict>
+	</array>
+</dict>
+</plist>

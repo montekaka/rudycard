@@ -16,6 +16,15 @@ class ContentViewController: UIViewController {
     var pageIndex: Int!
     var titleText: String!
     var imageFile: String!
+    var answerTitle: String!
+    var answerText: String!
+    
+    @IBAction func answerButtonAction(sender: AnyObject) {
+        println("this is \(self.pageIndex)")
+        var answerViewController = AnwerViewController(nibName:"AnwerViewController", bundle:nil)
+        self.presentViewController(answerViewController, animated: true, completion: nil)
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

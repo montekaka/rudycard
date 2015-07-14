@@ -55,6 +55,8 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         vc.imageFile = self.pageQuestionImages[index] as String
         vc.titleText = self.pageTitles[index] as String
         vc.pageIndex = index
+        vc.answerTitle = self.pageTitles[index] as String
+        vc.answerText = self.pageQuestionImages[index] as String
         
         return vc
     }

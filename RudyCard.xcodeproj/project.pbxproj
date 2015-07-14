@@ -225,6 +225,8 @@
 		E54CEC5B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-206.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB8B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-206.png */; };
 		E54CEC5C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-207.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB8C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-207.png */; };
 		E54CEC5D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-208.png in Resources */ = {isa = PBXBuildFile; fileRef = E54CEB8D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-208.png */; };
+		E5DC56E61B54BF9D00FECFF6 /* AnwerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DC56E41B54BF9D00FECFF6 /* AnwerViewController.swift */; };
+		E5DC56E71B54BF9D00FECFF6 /* AnwerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5DC56E51B54BF9D00FECFF6 /* AnwerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -464,6 +466,8 @@
 		E54CEB8B1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-206.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-206.png"; sourceTree = "<group>"; };
 		E54CEB8C1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-207.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-207.png"; sourceTree = "<group>"; };
 		E54CEB8D1B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pages from Complete_notecards_digital-Reserving-208.png"; sourceTree = "<group>"; };
+		E5DC56E41B54BF9D00FECFF6 /* AnwerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnwerViewController.swift; sourceTree = "<group>"; };
+		E5DC56E51B54BF9D00FECFF6 /* AnwerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnwerViewController.xib; sourceTree = "<group>"; };
 		ED277AB06F8432918E1AC616 /* Pods-RudyCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RudyCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RudyCard/Pods-RudyCard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -533,6 +537,8 @@
 				E54CEA811B53060300428E64 /* AppDelegate.swift */,
 				E54CEA831B53060300428E64 /* ViewController.swift */,
 				E54CEAA51B5316A500428E64 /* ContentViewController.swift */,
+				E5DC56E41B54BF9D00FECFF6 /* AnwerViewController.swift */,
+				E5DC56E51B54BF9D00FECFF6 /* AnwerViewController.xib */,
 				E54CEA851B53060300428E64 /* Main.storyboard */,
 				E54CEA881B53060300428E64 /* Images.xcassets */,
 				E54CEA8A1B53060300428E64 /* LaunchScreen.xib */,
@@ -919,6 +925,7 @@
 				E54CEC171B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-138.png in Resources */,
 				E54CEBD41B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-071.png in Resources */,
 				E54CEBF31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-102.png in Resources */,
+				E5DC56E71B54BF9D00FECFF6 /* AnwerViewController.xib in Resources */,
 				E54CEBD31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-070.png in Resources */,
 				E54CEBA31B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-022.png in Resources */,
 				E54CEC401B53373800428E64 /* Pages from Complete_notecards_digital-Reserving-179.png in Resources */,
@@ -1192,6 +1199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5DC56E61B54BF9D00FECFF6 /* AnwerViewController.swift in Sources */,
 				E54CEA841B53060300428E64 /* ViewController.swift in Sources */,
 				E54CEAA61B5316A500428E64 /* ContentViewController.swift in Sources */,
 				E54CEA821B53060300428E64 /* AppDelegate.swift in Sources */,
